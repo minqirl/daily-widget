@@ -46,3 +46,34 @@ return "Weather";
 }
 getWeather();
 setInterval(getWeather, 600000);
+function updateTime(){
+
+const now = new Date();
+let hours = now.getHours();
+const minutes = now.getMinutes().toString().padStart(2,"0");
+const period = hours >= 12 ? "PM" : "AM";
+
+hours = hours % 12;
+hours = hours === 0 ? 12 : hours;
+
+document.getElementById("today-time").innerHTML =
+`${hours.toString().padStart(2, "0")}:${minutes}<span class="time-period">${period}</span>`;
+}
+function updateDate(){
+
+const now = new Date();
+
+const options = {
+weekday: "long",
+month: "long",
+day: "numeric",
+year: "numeric"
+};
+const date = now.toLocaleDateString("en-US", options);
+
+document.getElementById("today-date").textContent = date;
+}
+updateTime();
+updateDate();
+setInterval(updateTime, 60000);
+setInterval(updateDate, 86400000); // Update date every 24 hours
