@@ -10,14 +10,15 @@
 
 <body>
 
-<div class="widget">
-    <div class="welcome-card">
-    <img class="welcome-bg" src="https://minqirl.github.io/daily-widget/images/bienvenidabg.png" 
-    alt="Fondo de bienvenida">
-        <h1 id="welcome-message"> 
-            Mensaje de bienvenida
-        </h1>
-    </div>
+<div class="widget-frame">
+    <div class="widget">
+        <div class="welcome-card">
+        <img class="welcome-bg" src="https://minqirl.github.io/daily-widget/images/bienvenidabg.png" 
+        alt="Fondo de bienvenida">
+            <h1 id="welcome-message"> 
+                Mensaje de bienvenida
+            </h1>
+        </div>
 
 <div class="today-section">
     <h2 class="today-title">
@@ -27,8 +28,8 @@
      src="https://minqirl.github.io/daily-widget/images/today-bg.png" 
      alt="Fondo de hoy">
     <div class="today-content">
-    <p class="today-date">Fecha de hoy</p>
-    <h1 class="today-time">HORA</h1>
+    <p id="today-date" class="today-date">Fecha</p>
+    <h1 id="today-time" class="today-time">00:00</h1>
 </div>
 <div class="left-section">
    <img class="left-image"
@@ -52,6 +53,8 @@
         </p>
     </div>
 
+</div>
+    </div>
 </div>
 <script src="js/script.js">
 </script>
