@@ -65,15 +65,16 @@ body {
     margin: 0;
     z-index: 2;
     color: white;
-    font-size: 30px;
+    font-size: 110px;
+    top: -35px;
     font-family: "Essays1743";
     -webkit-text-stroke: 1px #ADB8D8;
 
     text-shadow:
-    2px 2px 0 #E9CDCE,
-    -2px -2px 0 #E9CDCE,
-    2px -2px 0 #E9CDCE,
-    -2px 2px 0 #E9CDCE;
+    3px 3px 0 #E9CDCE,
+    -3px -3px 0 #E9CDCE,
+    3px -3px 0 #E9CDCE,
+    -3px 3px 0 #E9CDCE;
 }
 .welcome-bg {
     position: absolute;
@@ -91,28 +92,29 @@ body {
 .today-bg {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 300px;
+    left: 150px;
+    width: 700px;
     z-index: 1;
 }
 .today-content {
-    position: absolute;
+    position: relative;
     top: 40px;
-    left: 40px;
+    left: 200px;
     z-index: 2;
     color: black;
+    /* Ensure .today-time absolute positioning is relative to this container */
 }
 .today-title {
     position: absolute;
-    top: -50px;
-    left: 1px;
+    top: -120px;
+    left: 150px;
     font-family: "rainyhearts";
-    font-size: 25px;
+    font-size: 60px;
     font-weight: bold;
     white-space: nowrap;
 }
 .today-date {
-    font-size: 20px;
+    font-size: 60px;
     font-family: "rainyhearts";
     font-weight: bold;
     margin: 0%;
@@ -123,21 +125,21 @@ body {
 }
 .today-time
 {
-    font-size: 50px;
+    font-size: 250px;
     font-family: "determination";
     margin: 0%;
     position: absolute;
-    top: 80px;
-    left: 100px;
+    top: 100px;
+    left: 20px;
     white-space: nowrap;
 }
 .left-section {
     position: absolute;
     top: -20px;
-    left: -400px;
+    left: -700px;
 }
 .left-image {
-    width: 350px;
+    width: 700px;
     display: block;
 }
 .weather-section {
@@ -145,25 +147,26 @@ body {
     position: relative;
 }
 .weather-temp {
-    font-size: 40px;
+    font-size: 90px;
     font-family: "rainyhearts";
     position: absolute;
-    left: 30px;
-    top: -25px;
+    left: 65px;
+    top: 10px;
     margin: 0;
 }
 .weather-desc {
     position: absolute;
-    left: 30px;
-    top: 10px;
-    font-size: 25px;
+    left: 65px;
+    top: 70px;
+    font-size: 90px;
     font-family: "rainyhearts";
     margin: 0;
 }
 .verse-section {
     position: absolute;
-    bottom: 500px;
+    top: 1200px;
     left: 50%;
+    width: 1600px;
     transform: translateX(-50%);
     z-index: 0;
 }
@@ -173,23 +176,25 @@ body {
     z-index: 1;
 }
 .verse-box {
-    width: 90%;
-    max-width: 1100px;
-    padding: 40px 60px;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 200px;
+    padding: 3px 30px;
     background: rgba(255, 255, 255, 0.6);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-
     border-radius: 25px;
 }
 .verse-text {
-    font-size: 2rem;
-    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+    margin:15px;
+    font-family: "rainyhearts";
 }
 .verse-reference {
-    font-size: 22px;
-    margin-top: 15px;
+    font-size: 50px;
+    font-family: "rainyhearts";
+    margin-top: 8px;
     text-align: right;
     color: #222222; /* Increased contrast for accessibility */
 }
