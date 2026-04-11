@@ -66,15 +66,15 @@ body {
     z-index: 2;
     color: white;
     font-size: 110px;
-    top: -35px;
+    top: -45px;
     font-family: "Essays1743";
     -webkit-text-stroke: 1px #ADB8D8;
 
     text-shadow:
-    3px 3px 0 #E9CDCE,
-    -3px -3px 0 #E9CDCE,
-    3px -3px 0 #E9CDCE,
-    -3px 3px 0 #E9CDCE;
+    6px 4px 0 #E9CDCE,
+    -6px -4px 0 #E9CDCE,
+    6px -4px 0 #E9CDCE,
+    -6px 4px 0 #E9CDCE;
 }
 .welcome-bg {
     position: absolute;
@@ -112,6 +112,7 @@ body {
     font-size: 60px;
     font-weight: bold;
     white-space: nowrap;
+    color: #ADB8D8;
 }
 .today-date {
     font-size: 60px;
@@ -122,16 +123,30 @@ body {
     top: -30px;
     left: -35px;
     white-space: nowrap;
+    color: #B29CA6;
 }
-.today-time
-{
-    font-size: 250px;
+.today-time {
+    font-size: 230px;
     font-family: "determination";
+    color: #dcf7f3;
     margin: 0%;
     position: absolute;
-    top: 100px;
-    left: 20px;
-    white-space: nowrap;
+    top: 130px;
+    left: -10px;
+    white-space: normal;
+    text-shadow:
+    1px 1px 0 #000000,
+    -1px -1px 0 #E9CDCE,
+    1px -1px 0 #E9CDCE,
+    -1px 1px 0 #E9CDCE;
+}
+.today-time .time-period {
+    position: absolute;   
+    font-size: 45px;
+    top: 210px;
+    left: 585px;
+    margin-top: -20px;
+    letter-spacing: 0.05em;
 }
 .left-section {
     position: absolute;
@@ -145,13 +160,15 @@ body {
 .weather-section {
     margin-top: 20px;
     position: relative;
+    color: #000000;
 }
 .weather-temp {
     font-size: 80px;
-    font-family: "rainyhearts";
+    font-family: "Essays1743";
+    font-weight: bold;
     position: absolute;
     left: 65px;
-    top: 10px;
+    top: -70px;
     margin: 0;
 }
 .weather-desc {
@@ -186,15 +203,19 @@ body {
     border-radius: 50px;
 }
 .verse-text {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     margin:15px;
-    font-family: "rainyhearts";
+    font-family: "Essays1743";
+    color: #B29CA6;
+    -webkit-text-stroke: 1px #ffffff;
+    line-height: 1.5;
 }
 .verse-reference {
-    font-size: 60px;
-    font-family: "rainyhearts";
-    margin-top: -40px;
+    font-size: 40px;
+    font-family: "Essays1743";
+    margin-top: -80px;
     text-align: right;
-    color: #222222; /* Increased contrast for accessibility */
+    color: #ffffff;
+    -webkit-text-stroke: 1px #000000;
 }
