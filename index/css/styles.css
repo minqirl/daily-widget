@@ -147,7 +147,7 @@ body {
     position: relative;
 }
 .weather-temp {
-    font-size: 90px;
+    font-size: 80px;
     font-family: "rainyhearts";
     position: absolute;
     left: 65px;
@@ -157,8 +157,8 @@ body {
 .weather-desc {
     position: absolute;
     left: 65px;
-    top: 70px;
-    font-size: 90px;
+    top: 55px;
+    font-size: 70px;
     font-family: "rainyhearts";
     margin: 0;
 }
