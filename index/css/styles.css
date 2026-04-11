@@ -136,9 +136,9 @@ body {
     white-space: normal;
     text-shadow:
     1px 1px 0 #000000,
-    -1px -1px 0 #E9CDCE,
-    1px -1px 0 #E9CDCE,
-    -1px 1px 0 #E9CDCE;
+    -1px -1px 0 #B29CA6,
+    1px -1px 0 #B29CA6,
+    -1px 1px 0 #B29CA6;
 }
 .today-time .time-period {
     position: absolute;   
@@ -170,6 +170,13 @@ body {
     left: 65px;
     top: -70px;
     margin: 0;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #ADB8D8;
+    text-shadow:
+    6px 4px 0 #E9CDCE,
+    -6px -4px 0 #E9CDCE,
+    6px -4px 0 #E9CDCE,
+    -6px 4px 0 #E9CDCE;
 }
 .weather-desc {
     position: absolute;
@@ -177,7 +184,14 @@ body {
     top: 55px;
     font-size: 70px;
     font-family: "rainyhearts";
+    font-weight: bolder;
     margin: 0;
+    color: #dcf7f3;
+    text-shadow:
+    4px 4px 0 #B29CA6,
+    -4px -4px 0 #B29CA6,
+    4px -4px 0 #B29CA6,
+    -4px 4px 0 #B29CA6;
 }
 .verse-section {
     position: absolute;
@@ -204,18 +218,16 @@ body {
 }
 .verse-text {
     font-size: 50px;
-    font-weight: bold;
+    font-weight: bolder;
     margin:15px;
-    font-family: "Essays1743";
-    color: #B29CA6;
-    -webkit-text-stroke: 1px #ffffff;
+    font-family: "rainyhearts";
+    color: #ADB8D8;
     line-height: 1.5;
 }
 .verse-reference {
     font-size: 40px;
-    font-family: "Essays1743";
-    margin-top: -80px;
+    font-family: "rainyhearts";
+    margin-top: -8px;
     text-align: right;
-    color: #ffffff;
-    -webkit-text-stroke: 1px #000000;
+    color: #B29CA6;
 }
